@@ -1,0 +1,19 @@
+/* Light Mode (Default) */
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: rgb(217, 211, 211);
+}
+
+/* App Container */
+.app-container {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
